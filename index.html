@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>My shopping website</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu&display=swap" rel="stylesheet">
+
+      <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+
+    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+  </head>
+  <body>
+
+<section id ="title">
+
+
+
+
+  <nav class="navbar navbar-expand-lg navbar-dark ">
+
+
+
+    <a class="navbar-brand" href="index.html"><img src="images/website-logo.png" width="150" height="100" alt=""></a>   <!--logo on left side-->
+
+
+
+
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <form class="form-inline my-2 my-lg-0 ml-auto">
+          <input class="form-control mr-sm-2 rounded-pill" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn  rounded-pill btn-light my-2 my-sm-0" type="submit"><i class="fas fa-search"></i> Search</button>
+        </form>
+
+    <div class="collapse navbar-collapse"  id="navbarSupportedContent">
+
+
+    <ul class="navbar-nav  ml-auto">     <!--ml=margin left-->
+
+      <li class="nav-item">
+    <a class="nav-link"href="login.html"><i class="far fa-user-circle font fa-lg"></i> LogIn</a>
+    </li>
+
+
+  <li class="nav-item">
+  <a class="nav-link"href="cart.html"><i class="fas fa-shopping-cart fa-lg"></i> Cart</a>
+  </li>
+    </ul>
+
+    </div>
+
+  </nav>
+
+  <div class="container-fluid">    <!--evrything inside this div is fluidic in nature,ie it will automatically adapt screen size-->
+
+
+
+
+
+  <div id="testimonial-carousel" class="carousel slide" data-ride="carousel">  <!--data ride false means it will not autoplay,caraousel means it will play after every 5 sconds(ie default)-->
+  <div class="carousel-inner">
+
+
+  <div class="carousel-item active">    <!--active means this is the initial slide-->
+
+    <img class="headerItem-class" src="images/iphone11.jpg" alt="iphone">
+    <p class="head-item-name">iphone 11 64gb</p>
+
+  </div>
+
+
+  <div class="carousel-item">
+
+    <img class="headerItem-class" src="images/mi tv.png" alt="mi tv">
+  <p class="head-item-name">mi tv</p>
+  </div>
+
+  </div>
+  <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
+  <span class="carousel-control-prev-icon"></span>
+
+  </a>
+  <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
+  <span class="carousel-control-next-icon" ></span>
+
+  </a>
+
+  </div>
+
+</div>
+</section>
+
+
+<section id="main-content">
+  <div class="row">
+
+
+
+    <div class="item-box col-lg-4 col-sm-6">
+      <div class="card">
+        <img class=item-img src="images/item-image.jpg" alt="">
+        <div class="card-body">
+          <h3>Item.</h3>
+          <button type="button" class="btn btn-dark btn-sm  download-button"><i class="fas fa-rupee-sign"></i> Buy Now</button>
+          <button type="button" class="btn btn-light btn-sm  download-button"><i class="fas fa-shopping-cart"></i> Add to Cart</button>
+        </div>
+      </div>
+
+    </div>
+
+
+
+    <div class="item-box col-lg-4 col-sm-6">
+      <div class="card">
+        <img class=item-img src="images/item-image.jpg" alt="">
+        <div class="card-body">
+          <h3>Item.</h3>
+          <button type="button" class="btn btn-dark btn-sm  download-button"><i class="fas fa-rupee-sign"></i> Buy Now</button>
+          <button type="button" class="btn btn-light btn-sm  download-button"><i class="fas fa-shopping-cart"></i> Add to Cart</button>
+        </div>
+      </div>
+
+    </div>
+
+
+
+    <div class="item-box col-lg-4 col-sm-6">
+      <div class="card">
+        <img class=item-img src="images/item-image.jpg" alt="">
+        <div class="card-body">
+          <h3>Item.</h3>
+          <button type="button" class="btn btn-dark btn-sm  download-button"><i class="fas fa-rupee-sign"></i> Buy Now</button>
+          <button type="button" class="btn btn-light btn-sm  download-button"><i class="fas fa-shopping-cart"></i> Add to Cart</button>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="item-box col-lg-4 col-sm-6">
+      <div class="card">
+        <img class=item-img src="images/item-image.jpg" alt="">
+        <div class="card-body">
+          <h3>Item.</h3>
+          <button type="button" class="btn btn-dark btn-sm  download-button"><i class="fas fa-rupee-sign"></i> Buy Now</button>
+          <button type="button" class="btn btn-light btn-sm  download-button"><i class="fas fa-shopping-cart"></i> Add to Cart</button>
+        </div>
+      </div>
+
+    </div>
+
+
+  </div>
+</section>
+
+<section id="footer">
+<div class="row">
+
+  <div class="col-lg-4">
+    <h4>Get to know us</h4>
+    <p>About Us</p>
+    <p>Career</p>
+    <p>Press Release</p>
+
+  </div>
+
+
+
+    <div class="col-lg-4">
+      <h4>Connect with us</h4>
+      <p>Facebook</p>
+      <p>Twitter</p>
+      <p>Instagram</p>
+
+    </div>
+
+
+
+      <div class="col-lg-4">
+        <h4>Do Business with us</h4>
+        <p>Sell on Amazing</p>
+        <p>Buy on Amazing</p>
+        <p>Become delivery partner </p>
+
+      </div>
+
+</div>
+</section>
+
+
+  </body>
+</html>
