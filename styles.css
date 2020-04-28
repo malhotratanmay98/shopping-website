@@ -49,7 +49,7 @@ h4{
 .item-box{
 
   text-align: center;
-  padding: 5%;
+  
 }
 
 .item-img{
@@ -61,7 +61,8 @@ h4{
 
 
 #title{
-  background-color: #32dbc6;   /*#035aa6*/
+ /* background-color: #32dbc6; */  /*#035aa6*/
+   background-image: -webkit-linear-gradient(65deg, #A683E3 50%, #035aa6 50%);
 
 }
 
@@ -80,7 +81,7 @@ h4{
 
 .secondary-page{
   background-color: #aacfcf;
-  height:100vh; /*without this the container was covering partial height in mobile*/
+  
 }
 
 
@@ -119,4 +120,17 @@ margin-right: auto;
 .cart-section-img{
   width: 300px;
   height: 300px;
+}
+
+
+@media (max-width: 1080px) {
+  .secondary-page{
+    height: 100vh;    /*without this the container was covering partial height in mobile*/
+  }
+  
+  .form-group{
+    
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
