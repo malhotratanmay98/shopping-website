@@ -79,6 +79,7 @@ h4{
 
 .secondary-page{
   background-color: #aacfcf;
+  height:100vh; /*without this the container was covering partial height in mobile*/
 }
 
 
