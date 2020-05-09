@@ -29,6 +29,8 @@ h4{
 
 .navbar{
    padding:0 1rem 1rem;
+    /*background-color: #035aa6;*/
+    background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
 
 }
 
@@ -44,25 +46,23 @@ h4{
 
 .headerItem-class{
   text-align: center;
-  width: 1000px;
-  height:300px;
-
-
-
+  width: 100%;
+  height:500px;
 }
 
 .item-box{
 
-text-align: center;
-margin: 5%;
+
+text-align: center;
+
+margin: 5%;
 
 }
 
 .card{
   border-radius: 25px;
 /*  background-color: #f0f0f0; */
-background-color: #FBDA61;
-background-image: linear-gradient(45deg, #FBDA61 0%, #FF5ACD 100%);
+background-image: linear-gradient( 108.1deg,  rgba(167,220,225,1) 11.2%, rgba(217,239,242,1) 88.9% );
 
 
 
@@ -77,11 +77,11 @@ background-image: linear-gradient(45deg, #FBDA61 0%, #FF5ACD 100%);
 }
 
 
-#title{
+/*#title{
   background-color: #21D4FD;
   background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
 
-}
+}*/
 
 #main-content{
   background-color: #eff3c6;
@@ -170,6 +170,7 @@ width: 100%;
     background-color: #aacfcf;
     text-align: center;
     width: 100%;
+    height: 300px;
     /* height:100%; */
 }
 }
